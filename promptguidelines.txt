@@ -1,0 +1,261 @@
+LTX-2.3 introduces major improvements to detail, motion, prompt understanding, audio reliability, and native portrait support.
+
+This isn’t just a model update. It changes how you should prompt.
+
+Here’s how to get the most out of it.
+
+1. Be More Specific. The Engine Can Handle It.
+LTX-2.3 includes a larger, more capable text connector. It interprets complex prompts more accurately, especially when they include:
+
+Multiple subjects
+
+Spatial relationships
+
+Stylistic constraints
+
+Detailed actions
+
+Previously, simplifying prompts improved consistency.
+
+Now, specificity wins.
+
+Instead of:
+
+A woman in a café
+
+Try:
+
+A woman in her 30s sits by the window of a small Parisian café. Rain runs down the glass behind her. Warm tungsten interior lighting. She slowly stirs her coffee while glancing at her phone. Background softly out of focus.
+
+The creative engine drifts less. Use that.
+
+2. Direct the Scene, Don’t Just Describe It
+LTX-2.3 is better at respecting spatial layout and relationships.
+
+Be explicit about:
+
+Left vs right
+
+Foreground vs background
+
+Facing toward vs away
+
+Distance between subjects
+
+Instead of:
+
+Two people talking outside
+
+Try:
+
+Two people stand facing each other on a quiet suburban sidewalk. The taller man stands on the left, hands in pockets. The woman stands on the right, holding a bicycle. Houses blurred in the background.
+
+Block the scene like a director.
+
+3. Describe Texture and Material
+With a rebuilt latent space and updated VAE, fine detail is sharper across resolutions.
+
+So describe:
+
+Fabric types
+
+Hair texture
+
+Surface finish
+
+Environmental wear
+
+Edge detail
+
+Example:
+
+Close-up of wind moving through fine, curly hair. Individual strands visible. Soft afternoon backlight catching edge detail.
+
+You should need less compensation in post.
+
+4. For Image-to-Video, Use Verbs
+One of the biggest upgrades in 2.3 is reduced freezing and more natural motion.
+
+But motion still needs clarity.
+
+Avoid:
+
+The scene comes alive
+
+Instead:
+
+The camera slowly pushes forward as the subject turns their head and begins walking toward the street. Cars pass.
+
+Specify:
+
+Who moves
+
+What moves
+
+How they move
+
+What the camera does
+
+Motion is driven by verbs.
+
+5. Avoid Static, Photo-Like Prompts
+If your prompt reads like a still image, the output may behave like one.
+
+Instead of:
+
+A dramatic portrait of a man standing
+
+Try:
+
+A man stands on a windy rooftop. His coat flaps in the wind. He adjusts his collar and steps forward as the camera tracks right.
+
+Action reduces static outputs.
+
+6. Design for Native Portrait
+LTX-2.3 supports native vertical video up to 1080x1920, trained on vertical data.
+
+When generating portrait content, compose for vertical intentionally.
+
+Example:
+
+Influencer vlogging while on holiday.
+
+Don’t treat vertical as cropped landscape. Frame for it.
+
+7. Be Clear About Audio
+The new vocoder improves reliability and alignment.
+
+If you want sound, describe it:
+
+Environmental audio
+
+Tone and intensity
+
+Dialogue clarity
+
+Example:
+
+A low, pulsing energy hum radiates from the glowing orb. A sharp, intermittent alarm blares in the background, metallic and urgent, echoing through the spacecraft interior.
+
+Specific inputs produce more controlled outputs.
+
+8. Unlock More Complex Shots
+Earlier checkpoints rewarded simplicity.
+
+LTX-2.3 rewards direction.
+
+With significantly stronger prompt adherence and improved visual quality, you can now design more ambitious scenes with confidence.
+
+ou can:
+
+Layer multiple actions within a single shot
+
+Combine detailed environments with character performance
+
+Introduce precise stylistic constraints
+
+Direct camera movement alongside subject motion
+
+The engine holds structure under complexity. It maintains spatial logic. It respects what you ask for.
+
+LTX-2.3 is sharper, more faithful, and more controllable.
+
+Prompting Guide with LTX-2.3
+LTX-2.3 introduces major improvements to detail, motion, prompt understanding, audio reliability, and native portrait support.
+This isn’t just a model update. It changes how you should prompt.
+Here’s how to get the most out of it.
+0:07 / 0:12
+1. Be More Specific. The Engine Can Handle It.
+LTX-2.3 includes a larger, more capable text connector. It interprets complex prompts more accurately, especially when they include:
+Multiple subjects
+Spatial relationships
+Stylistic constraints
+Detailed actions
+Previously, simplifying prompts improved consistency.
+Now, specificity wins.
+Instead of:
+A woman in a café
+0:03 / 0:06
+Try:
+A woman in her 30s sits by the window of a small Parisian café. Rain runs down the glass behind her. Warm tungsten interior lighting. She slowly stirs her coffee while glancing at her phone. Background softly out of focus.
+0:03 / 0:06
+
+The creative engine drifts less. Use that.
+2. Direct the Scene, Don’t Just Describe It
+LTX-2.3 is better at respecting spatial layout and relationships.
+Be explicit about:
+Left vs right
+Foreground vs background
+Facing toward vs away
+Distance between subjects
+Instead of:
+Two people talking outside
+0:02 / 0:06
+Try:
+Two people stand facing each other on a quiet suburban sidewalk. The taller man stands on the left, hands in pockets. The woman stands on the right, holding a bicycle. Houses blurred in the background.
+0:02 / 0:06
+Block the scene like a director.
+3. Describe Texture and Material
+With a rebuilt latent space and updated VAE, fine detail is sharper across resolutions.
+So describe:
+Fabric types
+Hair texture
+Surface finish
+Environmental wear
+Edge detail
+Example:
+Close-up of wind moving through fine, curly hair. Individual strands visible. Soft afternoon backlight catching edge detail.
+0:02 / 0:08
+You should need less compensation in post.
+4. For Image-to-Video, Use Verbs
+One of the biggest upgrades in 2.3 is reduced freezing and more natural motion.
+But motion still needs clarity.
+Avoid:
+The scene comes alive
+0:03 / 0:10
+Instead:
+The camera slowly pushes forward as the subject turns their head and begins walking toward the street. Cars pass.
+0:03 / 0:10
+Specify:
+Who moves
+What moves
+How they move
+What the camera does
+Motion is driven by verbs.
+5. Avoid Static, Photo-Like Prompts
+If your prompt reads like a still image, the output may behave like one.
+Instead of:
+A dramatic portrait of a man standing
+0:03 / 0:08
+Try:
+A man stands on a windy rooftop. His coat flaps in the wind. He adjusts his collar and steps forward as the camera tracks right.
+0:02 / 0:08
+Action reduces static outputs.
+6. Design for Native Portrait
+LTX-2.3 supports native vertical video up to 1080x1920, trained on vertical data.
+When generating portrait content, compose for vertical intentionally.
+Example:
+Influencer vlogging while on holiday.
+0:04 / 0:08
+Don’t treat vertical as cropped landscape. Frame for it.
+7. Be Clear About Audio
+The new vocoder improves reliability and alignment.
+If you want sound, describe it:
+Environmental audio
+Tone and intensity
+Dialogue clarity
+Example:
+A low, pulsing energy hum radiates from the glowing orb. A sharp, intermittent alarm blares in the background, metallic and urgent, echoing through the spacecraft interior.
+0:04 / 0:08
+Specific inputs produce more controlled outputs.
+8. Unlock More Complex Shots
+Earlier checkpoints rewarded simplicity.
+LTX-2.3 rewards direction.
+With significantly stronger prompt adherence and improved visual quality, you can now design more ambitious scenes with confidence.
+You can:
+Layer multiple actions within a single shot
+Combine detailed environments with character performance
+Introduce precise stylistic constraints
+Direct camera movement alongside subject motion
+The engine holds structure under complexity. It maintains spatial logic. It respects what you ask for.
+LTX-2.3 is sharper, more faithful, and more controllable.
